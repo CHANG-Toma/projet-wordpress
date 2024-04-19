@@ -1,1 +1,0 @@
-Touché uniquement ce qui est dans wp_content et jamais au coeur de wordpress
