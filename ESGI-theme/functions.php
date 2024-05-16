@@ -1,13 +1,6 @@
 <?php
 // Logique du thème
 
-
-add_action('wp_enqueue_scripts', 'esgi_enqueue_assets');
-function esgi_enqueue_assets()
-{
-    wp_enqueue_style('main', get_stylesheet_uri());
-}
-
 // Intégrer la feuille de style principale
 add_action('wp_enqueue_scripts', 'esgi_enqueue_assets');
 function esgi_enqueue_assets()
